@@ -1,3 +1,16 @@
+## In this fork, a docker image created for weeSAM at: 
+```
+docker pull alhumaidyaroob/weesam:latest
+
+### to get weeSAM help massage and basic usage: 
+docker run --rm alhumaidyaroob/weesam:latest   weeSAM/weeSAM
+
+### Example: 
+
+docker run --rm -v $(pwd):/home/data -w /home/data alhumaidyaroob/weesam:latest   weeSAM/weeSAM --bam sample.bam --out weesam.txt
+```
+
+
 ### _weeSAM_  
 ```  
               _)_
